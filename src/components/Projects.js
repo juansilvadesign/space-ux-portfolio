@@ -1,63 +1,79 @@
+import React, { useEffect, useState } from "react";
+
+import mc1 from "../assets/img/mc1.gif";
+import mc2 from "../assets/img/mc2.png";
+import mc3 from "../assets/img/mc3.png";
+import mc4 from "../assets/img/mc4.png";
+
+import rp1 from "../assets/img/rp1.gif";
+
+import cs1 from "../assets/img/cs1.png";
+import cs2 from "../assets/img/cs2.png";
+import cs3 from "../assets/img/cs3.png";
+
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
-import { ProjectCard1 } from "./ProjectCard1";
-import { ProjectCard2 } from "./ProjectCard2";
-import projImg11 from "../assets/img/project-img11.gif";
-import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/project-img4.png";
-import projImg5 from "../assets/img/project-img5.gif";
-import projImg6 from "../assets/img/project-img6.png";
-import projImg7 from "../assets/img/project-img7.png";
-import projImg8 from "../assets/img/project-img8.png";
-import projImg9 from "../assets/img/project-img9.png";
+import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Projects = () => {
+function Projects () {
 
-  const projects = [
+  const mcProjects = [
     {
-      title2: "Comming Soon",
-      description2: "Design & Development",
-      imgUrl2: projImg4,
-      /*url: "",*/
-    },
-    {
-      title2: "Dog's Vet",
-      description2: "UX Unicórnio 1.0",
-      imgUrl2: projImg6,
-    },
-    {
-      title2: "Comming Soon",
-      description2: "Design & Development",
-      imgUrl2: projImg3,
-    },
-    {
-      title1: "Land Rover",
-      description1: "Desktop UI Design Practice",
-      imgUrl1: projImg5,
+      title: "Land Rover",
+      description: "Desktop UI Design Practice",
+      imgUrl: mc1,
+      demoUrl: "/"
     },
     {
       title1: "Airbnb",
       description1: "Mobile UI Design Practice",
-      imgUrl1: projImg8,
+      imgUrl1: mc2,
+      demoUrl: "/"
     },
     {
       title1: "NuBank",
       description1: "Mobile UI Design Practice",
-      imgUrl1: projImg7,
+      imgUrl1: mc3,
+      demoUrl: "/"
     },
     {
       title1: "UX Unicornio na Estrada",
       description1: "Front-end Practice",
-      imgUrl1: projImg9,
+      imgUrl1: mc4,
+      demoUrl: "/"
     },
+  ];
+
+  const rpProjects = [
     {
       title: "Agenda Geek",
       description: "ESG Startup",
-      imgUrl: projImg11,
-    },/*
+      imgUrl: rp1,
+    },
+  ];
+
+  const csProjects = [
+    {
+      title: "Comming Soon",
+      description: "Design & Development",
+      imgUrl: cs1,
+    },
+    {
+      title: "Dog's Vet",
+      description: "UX Unicórnio 1.0",
+      imgUrl: cs2,
+      demoUrl: "/"
+    },
+    {
+      title1: "Comming Soon",
+      description1: "Design & Development",
+      imgUrl1: cs3,
+    },
+  ];
+    
+    /*
     {
       title2: "Business Startup",
       description2: "Design & Development",
@@ -68,7 +84,11 @@ export const Projects = () => {
       description2: "Design & Development",
       imgUrl2: projImg3,
     },*/
-  ];
+
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+
 
   return (
     <section className="project" id="project">
@@ -76,12 +96,23 @@ export const Projects = () => {
         <Row>
           <Col size={12}>
             <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              {({ isVisible }) => (
+              <div 
+                className={
+                  isVisible ? "animate__animated animate__fadeIn"
+                  : ""
+                }
+              >  
                 <h2 class="unselectable">Projects</h2>
+                
                 <p class="unselectable">This is where I compile all my projects and experiences in the IT world, from product design to frontend development projects.</p>
+                
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                  <Nav 
+                    variant="pills" 
+                    className="nav-pills mb-5 justify-content-center align-items-center" 
+                    id="pills-tab"
+                  >
                     <Nav.Item>
                       <Nav.Link eventKey="second">Mini Cases</Nav.Link>
                     </Nav.Item>
@@ -97,7 +128,7 @@ export const Projects = () => {
                       <p class="unselectable">Here you can find real projects with real users, team work and implemented solutions.</p>
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          rpProjects.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -112,9 +143,9 @@ export const Projects = () => {
                       <p class="unselectable">Mini Cases are short projects with the goal to learn, test and showcase a new skill that are missing in my real projects.</p>
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          mcProjects.map((project, index) => {
                             return (
-                              <ProjectCard1
+                              <ProjectCard
                                 key={index}
                                 {...project}
                                 />
@@ -127,9 +158,9 @@ export const Projects = () => {
                       <p class="unselectable">Case Studies are projects that I designed or developed during undergratuation, certification course or bootcamp.</p>
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          csProjects.map((project, index) => {
                             return (
-                              <ProjectCard2
+                              <ProjectCard
                                 key={index}
                                 {...project}
                                 />
@@ -140,12 +171,14 @@ export const Projects = () => {
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
-              </div>}
+              </div>)}
             </TrackVisibility>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="backgroundImageRight"></img>
     </section>
-  )
+  );
 }
+
+export default Projects;
