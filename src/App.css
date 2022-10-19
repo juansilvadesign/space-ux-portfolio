@@ -15,7 +15,7 @@
 	font-weight: 400;
 }
 
-/************ Default Css ************/
+/************ Default CSS ************/
 * {
   margin: 0;
   padding: 0;
@@ -75,13 +75,33 @@ input:focus, textarea:focus, select:focus {
 }
 
 p.success {
-	color: green;
+	color: rgb(0, 175, 0);
+	text-align: center;
+	margin: 3% 0;
+	font-size: 24px;
+	font-weight: 900;
 }
 
-p.danger {
-	color: red;
+.danger__container a {
+	text-decoration: none;
 }
-/************ Navbar Css ************/
+p.danger {
+	color: rgb(255, 93, 93);
+	text-align: center;
+	margin: 3% 0;
+	font-size: 22px;
+}
+.danger__email {
+	color: rgb(120, 176, 0);
+	text-align: center;
+	margin: 3% 0;
+	font-size: 24px;
+	transition: 0.3s;
+}
+.danger__email:hover {
+	color: rgb(81, 255, 0);
+}
+/************ Navbar CSS ************/
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -112,6 +132,9 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 span.navbar-text {
     display: flex;
     align-items: center;
+}
+.navbar_logo {
+	transform: scale(1.5);
 }
 .social-icon {
     display: inline-block;
@@ -230,7 +253,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
-/************ Banner Css ************/
+/************ Banner CSS ************/
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
@@ -238,6 +261,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.align-items-center {
+	transform: translateY(-50px);
 }
 .banner .tagline {
   font-weight: 700;
@@ -299,8 +325,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+.wrap__container {
+	min-height: 70px;
+	white-space: nowrap;
+}
 
-/************ Skills Css ************/
+/************ Skills CSS ************/
 .skill {
   padding: 0 0 50px 0;
   position: relative;
@@ -328,6 +358,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto;
   position: relative;
 }
+.react-multiple-carousel__arrow {
+	margin: 0 -20px;
+}
 .skill-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
@@ -340,7 +373,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Projects CSS ************/
 .project {
   padding: 80px 0;
   position: relative;
@@ -466,7 +499,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact CSS ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
@@ -558,6 +591,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.5px;
   line-height: 1.2em;
+	text-align: center;
 }
 .new-email-bx {
   background: #fff;
@@ -616,6 +650,217 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+/***************** @media *****************/
+@media only screen and (min-width: 990px) {
+	.navbar_logo {
+		transform: scale(1.5);
+	}
+
+	.new-email-bx button {
+		padding: 20px 85px;
+	}
+	.new-email-bx input {
+		font-size: 22px;
+	}
+
+	.nav-link#projects-tabs-tab-first {
+		font-size: 22px;
+	}
+	.nav-link#projects-tabs-tab-second {
+		font-size: 22px;
+	}
+	.nav-link#projects-tabs-tab-third {
+		font-size: 22px;
+	}
+
+	.btns__button {
+		padding: 3% 5%;
+		min-width: 45%;
+		transform: scale(0.8);
+	}
+	.btns__button h5 {
+		font-weight: 200;
+	}
+	.btns__button:hover {
+		transform: scale(0.9);
+	}
+	.proj-txtx h4 {
+		font-size: 32px;
+		margin-bottom: 0;
+	}
+	.proj-txtx span {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	.navbar_logo {
+		transform: scale(2);
+	}
+
+	.vvd {
+		transform: scale(0.8);
+	}
+	.vvd span {
+		font-size: 20px;
+		white-space: nowrap;
+	}
+
+	.new-email-bx button {
+		padding: 20px 25px;
+	}
+	.new-email-bx input {
+		font-size: 16px;
+	}
+
+	.proj-txtx {
+		position: absolute;
+		text-align: center;
+		top: 75%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		transition: 0.5s;
+		opacity: 0;
+		width: 100%;
+		height: 75%;
+	}
+	.btns__container {
+		display: flex;
+		justify-content: center;
+		margin: 0 0;
+	}
+	.btns__button {
+		padding: 3% 3%;
+		min-width: 45%;
+		transform: scale(0.6);
+	}
+	.btns__button:hover {
+		transform: scale(0.7);
+	}
+	.proj-txtx h4 {
+		font-size: 17px;
+		margin-bottom: 0;
+	}
+	.proj-txtx span {
+		font-size: 9px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar_logo {
+		margin-left: 20px;
+	}
+
+	.new-email-bx button {
+		padding: 15px 20px;
+	}
+	.new-email-bx input {
+		font-size: 12px;
+	}
+	.wrap__container {
+		min-height: 150px;
+		white-space: initial;
+	}
+
+	.nav-link#projects-tabs-tab-first {
+		font-size: 12px;
+	}
+	.nav-link#projects-tabs-tab-second {
+		font-size: 12px;
+	}
+	.nav-link#projects-tabs-tab-third {
+		font-size: 12px;
+	}
+}
+@media (max-width: 767px) and (min-width: 577px) {
+	.proj-txtx {
+		position: absolute;
+		text-align: center;
+		top: 75%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		transition: 0.5s;
+		opacity: 0;
+		width: 100%;
+		height: 75%;
+	}
+	.btns__container {
+		display: flex;
+		justify-content: space-around;
+		margin: 0 0;
+	}
+	.btns__button {
+		padding: 3% 5%;
+		min-width: 45%;
+		transform: scale(0.7);
+	}
+	.btns__button:hover {
+		transform: scale(0.8);
+	}
+	.proj-txtx h4 {
+		font-size: 20px;
+		margin-bottom: 0;
+	}
+	.proj-txtx span {
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 575px) {
+	.proj-txtx {
+		position: absolute;
+		text-align: center;
+		top: 75%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		transition: 0.5s;
+		opacity: 0;
+		width: 100%;
+		height: 75%;
+	}
+	.btns__container {
+		display: flex;
+		justify-content: space-around;
+		margin: 30px 20px;
+	}
+	.btns__button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 4% 4%;
+		min-width: 35%;
+		transform: scale(1);
+	}
+	.btns__button:hover {
+		transform: scale(1.1);
+	}
+	.proj-txtx h4 {
+		font-size: 32px;
+		margin-bottom: 0;
+		margin-bottom: 15px;
+	}
+	.proj-txtx span {
+		font-size: 16px;
+	}
+	.proj-txtx h5 {
+		margin-top: 8px;
+	}
+}
+@media (max-width: 357px) {
+	.btns__container {
+		display: flex;
+		justify-content: space-around;
+		margin: 10px 5px;
+	}
+	.proj-txtx h4 {
+		font-size: 25px;
+		margin-bottom: 0;
+	}
+	.proj-txtx span {
+		font-size: 12px;
+	}
+}
+
 /************ Test ************/
 .unselectable {
   -moz-user-select: none;
