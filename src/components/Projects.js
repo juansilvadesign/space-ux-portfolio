@@ -95,10 +95,7 @@ function Projects () {
       <Container>
         <Row>
           <Col size={12}>
-            <TrackVisibility
-              offset={offset}
-              partialVisibility={partialVisibility}
-            >
+            <TrackVisibility>
               {({ isVisible }) => (
               <div 
                 className={
