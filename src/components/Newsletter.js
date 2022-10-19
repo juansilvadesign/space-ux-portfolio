@@ -6,20 +6,20 @@ export const Newsletter = ({ status, message, onValidated }) => {
 
   useEffect(() => {
     if (status === 'success') clearFields();
-  }, [status])
+  }, [status]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     email &&
     email.indexOf("@") > -1 &&
     onValidated({
-      EMAIL: email
-    })
-  }
+      EMAIL: email,
+    });
+  };
 
   const clearFields = () => {
     setEmail('');
-  }
+  };
 
   return (
       <Col lg={12}>
@@ -42,5 +42,5 @@ export const Newsletter = ({ status, message, onValidated }) => {
           </Row>
         </div>
       </Col>
-  )
-}
+  );
+};

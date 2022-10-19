@@ -1,10 +1,13 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/logo.svg';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import linkedln from '../assets/img/navLinkedln.png';
+import github from '../assets/img/githubNav.png';
+/*
+import facebook from '../assets/img/navFacebook.svg';
+import instagram from '../assets/img/navInstagram.svg';
 import { HashLink } from 'react-router-hash-link';
+*/
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -50,9 +53,12 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/jaypy/"><img src={navIcon1} alt="Linkedln" /></a>
-                <a href="https://www.facebook.com/people/Juan-Pablo/100075404547097/"><img src={navIcon2} alt="Facebook" /></a>
-                <a href="https://www.instagram.com/jaypy06/"><img src={navIcon3} alt="Instagram" /></a>
+                <a href="https://www.linkedin.com/in/jaypy/"><img src={linkedln} alt="Linkedln" /></a>
+                <a href="https://github.com/JuanPabloDesigner"><img src={github} alt="Github" /></a>
+                {/*
+                <a href="https://www.facebook.com/people/Juan-Pablo/100075404547097/"><img src={facebook} alt="Facebook" /></a>
+                <a href="https://www.instagram.com/jaypy06/"><img src={instagram} alt="Instagram" /></a>
+                */}
               </div>
               <a href="https://juanpablodesigner.github.io/ProductDesigner-CV/">
                 <button className="vvd"><span>My Resume</span></button>
@@ -64,3 +70,5 @@ export const NavBar = () => {
     </Router>
   )
 }
+
+export default NavBar;

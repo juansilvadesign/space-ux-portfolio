@@ -11,7 +11,7 @@ function ProjectCard({
   md = 4,
 }) {
   return (
-    <Col size={12} sm={6} md={4}>
+    <Col size={6} md={md} onClick={onClick}>
       <div className="proj-imgbx">
         <img src={imgUrl} alt="cardImg" />
         <div className="proj-txtx">
