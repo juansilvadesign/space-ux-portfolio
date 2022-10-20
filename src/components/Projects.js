@@ -24,25 +24,25 @@ function Projects () {
       title: "Land Rover",
       description: "Desktop UI Design Practice",
       imgUrl: mc1,
-      demoUrl: "/"
+      demoUrl: "https://www.figma.com/proto/GugOlKAn9OfeDVFYqkYIN5/Figma-UI-Design-Landc%C3%B3rnio-02-Gabarito?node-id=2%3A5859&viewport=41%2C-153%2C0.19&scaling=min-zoom&starting-point-node-id=9%3A1804",
     },
     {
-      title1: "Airbnb",
+      title: "Airbnb",
       description1: "Mobile UI Design Practice",
-      imgUrl1: mc2,
-      demoUrl: "/"
+      imgUrl: mc2,
+      demoUrl: "https://www.figma.com/proto/Ua9mzeXWiuVJjMVWMNRvXQ/Prot%C3%B3tipo-Unibnb-UX-Unic%C3%B3rnio?node-id=3%3A2&viewport=598%2C713%2C0.26&scaling=min-zoom&starting-point-node-id=101%3A684",
     },
     {
-      title1: "NuBank",
+      title: "NuBank",
       description1: "Mobile UI Design Practice",
-      imgUrl1: mc3,
-      demoUrl: "/"
+      imgUrl: mc3,
+      demoUrl: "https://www.figma.com/proto/5q46Fau8Z9Pyz5jZ19JLop/Figma-UI-Design-Unibank-01-Gabarito-Copy?node-id=0%3A1&viewport=312%2C475%2C0.46&scaling=scale-down&starting-point-node-id=2%3A5",
     },
     {
-      title1: "UX Unicornio na Estrada",
+      title: "UX Unicornio na Estrada",
       description1: "Front-end Practice",
-      imgUrl1: mc4,
-      demoUrl: "/"
+      imgUrl: mc4,
+      demoUrl: "",
     },
   ];
 
@@ -51,6 +51,8 @@ function Projects () {
       title: "Agenda Geek",
       description: "ESG Startup",
       imgUrl: rp1,
+      demoUrl: "https://www.figma.com/proto/OD664WpvRoF8x2mMyhTPnr/Agenda-Geek-g86?node-id=6%3A19&viewport=691%2C375%2C0.02&scaling=contain&starting-point-node-id=805%3A7309",
+      caseUrl: "https://jaypy.notion.site/Agenda-Geek-Improving-the-sign-up-of-High-Schools-in-educational-events-5f84507389b546bd802410589b9889f3",
     },
   ];
 
@@ -64,12 +66,12 @@ function Projects () {
       title: "Dog's Vet",
       description: "UX Unicórnio 1.0",
       imgUrl: cs2,
-      demoUrl: "/"
+      demoUrl: "",
     },
     {
-      title1: "Comming Soon",
-      description1: "Design & Development",
-      imgUrl1: cs3,
+      title: "Comming Soon",
+      description: "Design & Development",
+      imgUrl: cs3,
     },
   ];
     
@@ -105,7 +107,12 @@ function Projects () {
               >  
                 <h2 class="unselectable">Projects</h2>
                 
-                <p class="unselectable">This is where I compile all my projects and experiences in the IT world, from product design to frontend development projects.</p>
+                <p style="
+                -moz-user-select: none;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                ">This is where I compile all my projects and experiences in the IT world, from product design to frontend development projects.</p>
                 
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav 
