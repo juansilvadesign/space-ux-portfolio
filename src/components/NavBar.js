@@ -2,7 +2,9 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/logo.svg';
 import linkedln from '../assets/img/navLinkedln.png';
-import github from '../assets/img/githubNav.png';
+import github from '../assets/img/navGithub.png';
+import telegram from '../assets/img/navTelegram.png';
+import discord from '../assets/img/navDiscord.png';
 /*
 import facebook from '../assets/img/navFacebook.svg';
 import instagram from '../assets/img/navInstagram.svg';
@@ -55,6 +57,8 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/jaypy/"><img src={linkedln} alt="Linkedln" /></a>
                 <a href="https://github.com/JuanPabloDesigner"><img src={github} alt="Github" /></a>
+                <a href="https://t.me/jaypy06"><img src={telegram} alt="Telegram" /></a>
+                <a href="https://discordapp.com/users/908604345992491018"><img src={discord} alt="Discord" /></a>
                 {/*
                 <a href="https://www.facebook.com/people/Juan-Pablo/100075404547097/"><img src={facebook} alt="Facebook" /></a>
                 <a href="https://www.instagram.com/jaypy06/"><img src={instagram} alt="Instagram" /></a>
