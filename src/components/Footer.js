@@ -2,8 +2,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import { MailchimpForm } from "./MailchimpForm";
 import logo from "../assets/img/logo.svg";
 import linkedln from '../assets/img/navLinkedln.png';
-import github from '../assets/img/githubNav.png';
+import github from '../assets/img/navGithub.png';
+import telegram from '../assets/img/navTelegram.png';
+import discord from '../assets/img/navDiscord.png';
 /*
+import medium from '../assets/img/navMedium.png';
 import facebook from '../assets/img/navFacebook.svg';
 import instagram from '../assets/img/navInstagram.svg';
 */
@@ -22,21 +25,38 @@ function Footer() {
 							<a
 								target="_blank"
 								rel="noopener noreferrer"
-								href="https://www.linkedin.com/in/krystian-kruszelnicki-bmine/"
+								href="https://www.linkedin.com/in/jaypy/"
 							>
 								<img src={linkedln} alt="linkedIn" />
 							</a>
 							<a
 								target="_blank"
 								rel="noopener noreferrer"
-								href="https://github.com/Croosheck"
+								href="https://github.com/JuanPabloDesigner"
 							>
 								<img src={github} alt="github" />
 							</a>
-							{/* <a>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://t.me/jaypy06"
+							>
+								<img src={telegram} alt="telegram" />
+							</a>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://discordapp.com/users/908604345992491018"
+							>
+								<img src={discord} alt="discord" />
+							</a>
+							{/* <a href="https://medium.com/@JuanPablo./">
+								<img src={medium} alt="medium" />
+							</a> */}
+							{/* <a href="https://www.facebook.com/people/Juan-Pablo/100075404547097/">
 								<img src={facebook} alt="facebook" />
 							</a> */}
-							{/* <a>
+							{/* <a href="https://www.instagram.com/jaypy06/">
 								<img src={instagram} alt="instagram" />
 							</a> */}
 						</div>
