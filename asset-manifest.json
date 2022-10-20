@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/space-ux-portfolio/static/css/main.f8819296.css",
-    "main.js": "/space-ux-portfolio/static/js/main.714d0cc3.js",
+    "main.js": "/space-ux-portfolio/static/js/main.9b019f77.js",
     "static/js/787.fb771931.chunk.js": "/space-ux-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/mc1.gif": "/space-ux-portfolio/static/media/mc1.2919ef189e18c52d0fa7.gif",
     "static/media/rp1.gif": "/space-ux-portfolio/static/media/rp1.03b5d5d96b9ab9e6c90d.gif",
@@ -20,7 +20,8 @@
     "static/media/cs1.png": "/space-ux-portfolio/static/media/cs1.d593db3f12901bc685c2.png",
     "static/media/footer-bg.png": "/space-ux-portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/cs3.png": "/space-ux-portfolio/static/media/cs3.675b30d2f975a1bc1d09.png",
-    "static/media/githubNav.png": "/space-ux-portfolio/static/media/githubNav.71f48299f1972d2b7973.png",
+    "static/media/navGithub.png": "/space-ux-portfolio/static/media/navGithub.71f48299f1972d2b7973.png",
+    "static/media/navTelegram.png": "/space-ux-portfolio/static/media/navTelegram.66a06c6dba339eed2d00.png",
     "static/media/design-thinking.svg": "/space-ux-portfolio/static/media/design-thinking.e023e06904357f6355012b3836a6ce12.svg",
     "static/media/wireframe.svg": "/space-ux-portfolio/static/media/wireframe.dd586a111325c7610a843843d5ac646d.svg",
     "static/media/revicons.eot": "/space-ux-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
@@ -52,11 +53,11 @@
     "static/media/arrow2.svg": "/space-ux-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/space-ux-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "main.f8819296.css.map": "/space-ux-portfolio/static/css/main.f8819296.css.map",
-    "main.714d0cc3.js.map": "/space-ux-portfolio/static/js/main.714d0cc3.js.map",
+    "main.9b019f77.js.map": "/space-ux-portfolio/static/js/main.9b019f77.js.map",
     "787.fb771931.chunk.js.map": "/space-ux-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8819296.css",
-    "static/js/main.714d0cc3.js"
+    "static/js/main.9b019f77.js"
   ]
 }
