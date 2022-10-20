@@ -478,6 +478,32 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 50%;
   opacity: 1;
 }
+
+.btns__container {
+	display: flex;
+	justify-content: space-around;
+	margin: 5% 15%;
+}
+.btns__button {
+	border: 2px solid rgb(196, 146, 146);
+	color: rgb(196, 146, 146);
+	padding: 2% 5%;
+	min-width: 45%;
+	max-height: 40px;
+	border-radius: 5%;
+	cursor: pointer;
+	transform: scale(0.9);
+	transition: 0.2s;
+}
+
+.btns__button:hover {
+	color: #fff;
+	border: 2.5px solid rgb(255, 255, 255);
+	transform: scale(1);
+	font-weight: bold;
+	background-color: #87868670;
+}
+
 .proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
