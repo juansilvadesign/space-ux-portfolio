@@ -129,7 +129,7 @@ function Projects () {
                     id="slideInUp"
                     className={isVisible
                       ? "animate__animated animate__slideInUp"
-                      : "animate__animated animate__lightSpeedOutLeft"
+                      : ""
                     }
                   >
                     <Tab.Pane eventKey="first">
