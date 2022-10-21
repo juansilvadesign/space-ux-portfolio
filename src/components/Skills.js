@@ -118,6 +118,9 @@ function Skills() {
                                 <h5 class="unselectable">Sampling</h5>
                             </div>
                         </Carousel>
+                        <p className="mobile">
+                            ← swipe on mobile →
+                        </p>
                     </div>
                 </div>
             </div>
