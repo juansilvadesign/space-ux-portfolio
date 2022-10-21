@@ -375,9 +375,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects CSS ************/
 .project {
-  padding: 80px 0;
-  position: relative;
-  background-color: black;
+  padding: 120px 0;
+  position: relative;background: linear-gradient(90.21deg, #1a1c3173 -5.91%, #000000 111.58%);
 }
 .project h2 {
 	font-size: 45px;
