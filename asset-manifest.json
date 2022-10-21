@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/space-ux-portfolio/static/css/main.510da045.css",
-    "main.js": "/space-ux-portfolio/static/js/main.d3b74f94.js",
+    "main.css": "/space-ux-portfolio/static/css/main.fa8ff621.css",
+    "main.js": "/space-ux-portfolio/static/js/main.88d9b541.js",
     "static/js/787.fb771931.chunk.js": "/space-ux-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/mc1.gif": "/space-ux-portfolio/static/media/mc1.2919ef189e18c52d0fa7.gif",
     "static/media/rp1.gif": "/space-ux-portfolio/static/media/rp1.03b5d5d96b9ab9e6c90d.gif",
@@ -51,12 +51,12 @@
     "index.html": "/space-ux-portfolio/index.html",
     "static/media/arrow2.svg": "/space-ux-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/space-ux-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "main.510da045.css.map": "/space-ux-portfolio/static/css/main.510da045.css.map",
-    "main.d3b74f94.js.map": "/space-ux-portfolio/static/js/main.d3b74f94.js.map",
+    "main.fa8ff621.css.map": "/space-ux-portfolio/static/css/main.fa8ff621.css.map",
+    "main.88d9b541.js.map": "/space-ux-portfolio/static/js/main.88d9b541.js.map",
     "787.fb771931.chunk.js.map": "/space-ux-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.510da045.css",
-    "static/js/main.d3b74f94.js"
+    "static/css/main.fa8ff621.css",
+    "static/js/main.88d9b541.js"
   ]
 }
