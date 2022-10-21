@@ -42,7 +42,6 @@ function Projects () {
       title: "UX Unicornio na Estrada",
       description1: "Front-end Practice",
       imgUrl: mc4,
-      demoUrl: "",
     },
   ];
 
@@ -66,7 +65,6 @@ function Projects () {
       title: "Dog's Vet",
       description: "UX Unicórnio 1.0",
       imgUrl: cs2,
-      demoUrl: "",
     },
     {
       title: "Comming Soon",
@@ -107,7 +105,7 @@ function Projects () {
               >  
                 <h2 class="unselectable">Projects</h2>
                 
-                <p class="unselectablep">This is where I compile all my projects and experiences in the IT world, from product design to frontend development projects.</p>
+                <p class="unselectable">This is where I compile all my projects and experiences in the IT world, from product design to frontend development projects.</p>
                 
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav 
