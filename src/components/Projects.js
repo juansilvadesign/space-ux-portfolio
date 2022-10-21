@@ -107,7 +107,7 @@ function Projects () {
               >  
                 <h2 class="unselectable">Projects</h2>
                 
-                <p>This is where I compile all my projects and experiences in the IT world, from product design to frontend development projects.</p>
+                <p class="unselectable">This is where I compile all my projects and experiences in the IT world, from product design to frontend development projects.</p>
                 
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav 

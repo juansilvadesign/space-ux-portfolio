@@ -436,7 +436,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .nav-link#projects-tabs-tab-first {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 .nav-link#projects-tabs-tab-second {
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -894,6 +894,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   -ms-user-select: none;
   user-select: none;
 }
+.unselectable p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .vvd {
   display: inline-block;
   text-decoration: white;
