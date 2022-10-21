@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/space-ux-portfolio/static/css/main.54f231a8.css",
+    "main.css": "/space-ux-portfolio/static/css/main.7d38ef5c.css",
     "main.js": "/space-ux-portfolio/static/js/main.ec82a7e6.js",
     "static/js/787.fb771931.chunk.js": "/space-ux-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/mc1.gif": "/space-ux-portfolio/static/media/mc1.2919ef189e18c52d0fa7.gif",
@@ -51,12 +51,12 @@
     "index.html": "/space-ux-portfolio/index.html",
     "static/media/arrow2.svg": "/space-ux-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/space-ux-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "main.54f231a8.css.map": "/space-ux-portfolio/static/css/main.54f231a8.css.map",
+    "main.7d38ef5c.css.map": "/space-ux-portfolio/static/css/main.7d38ef5c.css.map",
     "main.ec82a7e6.js.map": "/space-ux-portfolio/static/js/main.ec82a7e6.js.map",
     "787.fb771931.chunk.js.map": "/space-ux-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54f231a8.css",
+    "static/css/main.7d38ef5c.css",
     "static/js/main.ec82a7e6.js"
   ]
 }

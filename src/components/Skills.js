@@ -118,7 +118,10 @@ function Skills() {
                                 <h5 class="unselectable">Sampling</h5>
                             </div>
                         </Carousel>
-                        <p className="mobile">
+                        <p style={{
+                            fontSize: "18px",
+                            color: "linear-gradient(90deg, #AA367C 0%, #4A2FBD 100%)"
+                        }}>
                             ← swipe on mobile →
                         </p>
                     </div>

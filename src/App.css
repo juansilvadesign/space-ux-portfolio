@@ -372,10 +372,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
-.mobile {
-  color: linear-gradient(90deg, #AA367C 0%, #4A2FBD 100%);
-  font-size: 18px;
-}
 
 /************ Projects CSS ************/
 .project {
