@@ -102,12 +102,12 @@ function Projects () {
               <div 
                 className={
                   isVisible ? "animate__animated animate__fadeIn"
-                  : "animate__animated animate__fadeOut"
+                  : ""
                 }
               >  
                 <h2 class="unselectable">Projects</h2>
                 
-                <p class="unselectable">This is where I compile all my projects and experiences in the IT world, from product design to frontend development projects.</p>
+                <p class="unselectablep">This is where I compile all my projects and experiences in the IT world, from product design to frontend development projects.</p>
                 
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav 

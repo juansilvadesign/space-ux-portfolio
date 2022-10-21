@@ -894,7 +894,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   -ms-user-select: none;
   user-select: none;
 }
-.unselectable p {
+.unselectablep {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
