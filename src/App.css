@@ -373,8 +373,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 .mobile {
-  color: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  font-size: 18 px;
+  color: linear-gradient(90deg, #AA367C 0%, #4A2FBD 100%);
+  font-size: 18px;
 }
 
 /************ Projects CSS ************/
@@ -386,13 +386,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+	margin-bottom: 10px;
 }
 .project p {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px auto 30px auto;
+  margin: 14px auto 80px auto;
   text-align: center;
   width: 56%;
 }
