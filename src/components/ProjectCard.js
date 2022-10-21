@@ -8,9 +8,10 @@ function ProjectCard({
   onClick,
   onCaseClick,
   onDemoClick,
+  md = 5,
 }) {
   return (
-    <Col size={12} sm={6} md={4} onClick={onClick}>
+    <Col className="proj-col" sm={6} md={md} onClick={onClick}>
       <div className="proj-imgbx">
         <img src={imgUrl} alt="cardImg" />
         <div className="proj-txtx">

@@ -132,7 +132,7 @@ function Projects () {
                   >
                     <Tab.Pane eventKey="first">
                       <p class="unselectable">Here you can find real projects with real users, team work and implemented solutions.</p>
-                      <Row>
+                      <Row className="projects--tabPane">
                         {rpProjects.map((project, index) => {
                             return (
                               <ProjectCard
@@ -150,7 +150,7 @@ function Projects () {
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <p class="unselectable">Mini Cases are short projects with the goal to learn, test and showcase a new skill that are missing in my real projects.</p>
-                      <Row>
+                      <Row className="projects--tabPane">
                         {mcProjects.map((project, index) => {
                             return (
                               <ProjectCard
@@ -165,7 +165,7 @@ function Projects () {
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p class="unselectable">Case Studies are projects that I designed or developed during undergratuation, certification course or bootcamp.</p>
-                      <Row>
+                      <Row className="projects--tabPane">
                         {
                           csProjects.map((project, index) => {
                             return (
