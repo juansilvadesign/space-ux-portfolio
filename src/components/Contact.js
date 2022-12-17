@@ -39,7 +39,7 @@ function Contact() {
 		setButtonText("Sending... Don't close the page.");
 
 		const response = await fetch(
-			"https://formsubmit.co/ajax/krystian.kruszelnicki1@gmail.com",
+			"https://formsubmit.co/ajax/xxxxxxxxxx@gmail.com",
 			{
 				method: "POST",
 				headers: {
