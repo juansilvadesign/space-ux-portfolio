@@ -66,7 +66,7 @@ export const NavBar = () => {
                 <a href="https://www.instagram.com/jaypy06/"><img src={instagram} alt="Instagram" /></a>
                 */}
               </div>
-              <a href="https://juanpablodesigner.github.io/ProductDesigner-CV/">
+              <a href="https://juanpablodesigner.github.io/ProductDesigner-Resume/">
                 <button className="vvd"><span>My Resume</span></button>
               </a>
             </span>
