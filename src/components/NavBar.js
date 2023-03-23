@@ -5,6 +5,7 @@ import linkedln from '../assets/img/navLinkedln.png';
 import github from '../assets/img/navGithub.png';
 import telegram from '../assets/img/navTelegram.png';
 import discord from '../assets/img/navDiscord.png';
+import whatsapp from '../assets/img/navWhatsapp.png';
 /*
 import medium from '../assets/img/navMedium.png';
 import facebook from '../assets/img/navFacebook.svg';
@@ -60,6 +61,7 @@ export const NavBar = () => {
                 <a href="https://github.com/JuanPabloDesigner"><img src={github} alt="Github" /></a>
                 <a href="https://t.me/jaypy06"><img src={telegram} alt="Telegram" /></a>
                 <a href="https://discordapp.com/users/908604345992491018"><img src={discord} alt="Discord" /></a>
+                <a href="https://api.whatsapp.com/send?phone=5521966442965&text=I%27ve%20reviewed%20your%20resume%20and%20am%20reaching%20out%20to%20offer%20you%20a%20job%20opportunity."><img src={whatsapp} alt="WhatsApp" /></a>
                 {/*
                 <a href="https://medium.com/@JuanPablo./"><img src={medium} alt="Medium" /></a>
                 <a href="https://www.facebook.com/people/Juan-Pablo/100075404547097/"><img src={facebook} alt="Facebook" /></a>
