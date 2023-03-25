@@ -48,7 +48,7 @@ function Footer() {
 							<a
 								target="_blank"
 								rel="noopener noreferrer"
-								href="https://api.whatsapp.com/send?phone=5521966442965&text=I%27ve%20reviewed%20your%20resume%20and%20am%20reaching%20out%20to%20offer%20you%20a%20job%20opportunity."
+								href="https://api.whatsapp.com/send?phone=5521966442965&text=I%27ve%20reviewed%20your%20%20and%20I%27am%20reaching%20out%20to%20offer%20you%20a%20job%20opportunity."
 							>
 								<img src={whatsapp} alt="WhatsApp" />
 							</a>
