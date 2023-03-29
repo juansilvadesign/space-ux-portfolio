@@ -1,6 +1,6 @@
 <h1 align="center"> Juan Silva | UX Portfolio </h1>
 
-<h3 align="center"> Welcome to my UX portfolio! </h3>
+<h3 align="center"> Welcome to my portfolio! </h3>
 
 <p align="center">
 I've always been curious and willing to learn new things throughout my journey. I spend countless hours in front of my PC and mobile every day studying technology, investing, and entrepreneurship, as well as working on my personal development and projects. When I'm on my PC and mobile, I always listen to music to keep me focused.<br/><br/>
