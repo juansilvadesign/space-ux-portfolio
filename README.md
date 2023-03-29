@@ -1,8 +1,9 @@
 <h1 align="center"> Juan Silva | UX Portfolio </h1>
 
+<h3 align="center"> Welcome to my UX portfolio! </h3>
+
 <p align="center">
-Welcome to my UX portfolio!<br/>
-I've always been curious and willing to learn new things throughout my journey. I spend countless hours in front of my PC and mobile every day studying technology, investing, and entrepreneurship, as well as working on my personal development and projects. When I'm on my PC and mobile, I always listen to music to keep me focused.<br/>
+I've always been curious and willing to learn new things throughout my journey. I spend countless hours in front of my PC and mobile every day studying technology, investing, and entrepreneurship, as well as working on my personal development and projects. When I'm on my PC and mobile, I always listen to music to keep me focused.<br/><br/>
 > You can see all my playlists by <a href="https://juanpablodesigner.github.io/My_YT_Playlists/" rel="noopener noreferrer" target="_blank">clicking here</a>.<br/>
 > You can see the website by <a href="https://juanpablodesigner.github.io/Professional-Links/" rel="noopener noreferrer" target="_blank">clicking here.</a>
 </p>
