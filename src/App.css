@@ -688,6 +688,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	.navbar_logo {
 		transform: scale(1.5);
 	}
+  
 
 	.newsletter-row {
 		display: flex;
