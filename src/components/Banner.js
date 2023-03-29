@@ -12,7 +12,7 @@ function Banner () {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
 
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer.", "Web Designer.", "UI/UX Designer.", "Product Designer.", "Web Security Analyst.", "Frontend Developer.", "Visual Designer.", "Design Thinker.", "Service Designer." ];
+  const toRotate = [ "Web Developer.", "Web Designer.", "UX/UI Designer.", "Product Designer.", "Web Security Analyst.", "Frontend Developer.", "Visual Designer.", "Design Thinker.", "Service Designer." ];
   const period = 2000;
 
   useEffect(() => {
@@ -57,11 +57,11 @@ function Banner () {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1 class="unselectable">{`Hey! I'm Juan Silva,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer.", "Web Designer.", "UI/UX Designer.", "Product Designer.", "Web Security Analyst.", "Frontend Developer.", "Visual Designer.", "Design Thinker.", "Service Designer." ]'><span className="wrap">{text}</span></span></h1>
+                <h1 class="unselectable">{`Hey! I'm Juan Silva,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer.", "Web Designer.", "UX/UI Designer.", "Product Designer.", "Web Security Analyst.", "Frontend Developer.", "Visual Designer.", "Design Thinker.", "Service Designer." ]'><span className="wrap">{text}</span></span></h1>
                   <p class="unselectable">I'm a self taught UX Designer & Developer who loves designing users experiences and making them real. My main goal is to develop my career and learn by working with new interesting projects remotely.</p>
               </div>}
             </TrackVisibility>
-              <a href="https://www.linkedin.com/in/jaypy/" className="vvd">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jaypy/" className="vvd">
                 <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </a>
           </Col>

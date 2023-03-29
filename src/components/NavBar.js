@@ -124,7 +124,10 @@ export const NavBar = () => {
                 </a> */}
 
               </div>
-              <a href="https://juanpablodesigner.github.io/ProductDesigner-Resume/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://juanpablodesigner.github.io/ProductDesigner-Resume/">
                 <button className="vvd"><span>My Resume</span></button>
               </a>
             </span>

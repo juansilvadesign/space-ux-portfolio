@@ -804,6 +804,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media only screen and (max-width: 767px) {
+  .banner img {
+    display: none;
+  }
+  
 	nav.navbar {
 		background-color: #121212;
 	}
@@ -842,6 +846,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	}
 }
 @media (max-width: 767px) and (min-width: 577px) {
+  .banner img {
+    display: none;
+  }
+  
 	.proj-txtx {
 		position: absolute;
 		text-align: center;
@@ -876,6 +884,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media (max-width: 575px) {
+  .banner img {
+    display: none;
+  }
+
 	.proj-txtx {
 		position: absolute;
 		text-align: center;
@@ -929,6 +941,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	}
 }
 @media (max-width: 410px) {
+  .banner img {
+    display: none;
+  }
+
 	.btns__container {
 		display: flex;
 		justify-content: space-around;
