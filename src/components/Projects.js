@@ -53,6 +53,18 @@ function Projects () {
       demoUrl: "https://www.figma.com/proto/OD664WpvRoF8x2mMyhTPnr/Agenda-Geek-g86?node-id=6%3A19&viewport=691%2C375%2C0.02&scaling=contain&starting-point-node-id=805%3A7309",
       caseUrl: "https://jaypy.notion.site/Agenda-Geek-Improving-the-sign-up-of-High-Schools-in-educational-events-5f84507389b546bd802410589b9889f3",
     },
+    {
+      title: "EasyBuyCard",
+      description: "FinTech",
+      imgUrl: rp1,
+      demoUrl: "https://www.figma.com/proto/xWAULAqrxMN2pOd2mXBloO/EasyBuyCard?node-id=1-16&node-type=canvas&viewport=15500%2C-318%2C0.17&t=ogUdDoRIAupEnWTo-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8003%3A201166&show-proto-sidebar=1",
+    },
+    {
+      title: "KAT Investimentos (Banco Safra)",
+      description: "FinTech",
+      imgUrl: rp1,
+      demoUrl: "https://www.figma.com/proto/ZxMu3g3sY3P9s2fWtXXYOJ/Safra-Assessor-and-Head-otimizado?node-id=1-16&node-type=canvas&viewport=2008%2C321%2C0.04&t=tCJq5DeE5T8ylMuF-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5112%3A1773&show-proto-sidebar=1",
+    },
   ];
 
   const csProjects = [
