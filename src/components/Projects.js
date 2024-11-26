@@ -6,6 +6,10 @@ import mc3 from "../assets/img/mc3.png";
 import mc4 from "../assets/img/mc4.png";
 
 import rp1 from "../assets/img/rp1.gif";
+import rp2 from "../assets/img/rp2.png";
+import rp3 from "../assets/img/rp3.png";
+import rp4 from "../assets/img/rp4.png";
+import rp5 from "../assets/img/rp5.png";
 
 import cs1 from "../assets/img/cs1.png";
 import cs2 from "../assets/img/cs2.png";
@@ -44,8 +48,32 @@ function Projects () {
       imgUrl: mc4,
     },
   ];
-
+  
   const rpProjects = [
+    {
+      title: "KAT Investments (Safra)",
+      description: "FinTech",
+      imgUrl: rp2,
+      demoUrl: "https://www.figma.com/proto/ZxMu3g3sY3P9s2fWtXXYOJ/Safra-Assessor-and-Head-otimizado?node-id=1-16&node-type=canvas&viewport=2008%2C321%2C0.04&t=tCJq5DeE5T8ylMuF-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5112%3A1773&show-proto-sidebar=1",
+    },
+    {
+      title: "Sapiens Agro",
+      description: "AgroTech",
+      imgUrl: rp3,
+      demoUrl: "https://www.figma.com/proto/ABzBHVlbsu2fNNoZKgEHDd/Sapiens-Agro?node-id=1-16&node-type=canvas&viewport=2237%2C91%2C0.04&t=BWiCb18Hj9VCyV5v-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5112%3A1773&show-proto-sidebar=1",
+    },
+    {
+      title: "Banco Lucrativo",
+      description: "FinTech",
+      imgUrl: rp4,
+      demoUrl: "https://www.figma.com/proto/5ErmJTWIFG2kIWLUQxgEOi/Banco-Lucrativo?node-id=1-16&node-type=canvas&viewport=21185%2C-559%2C0.19&t=ObwzmdlFjHNkc8Of-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2976%3A36077&show-proto-sidebar=1",
+    },
+    {
+      title: "EasyBuyCard",
+      description: "FinTech",
+      imgUrl: rp5,
+      demoUrl: "https://www.figma.com/proto/xWAULAqrxMN2pOd2mXBloO/EasyBuyCard?node-id=1-16&node-type=canvas&viewport=15500%2C-318%2C0.17&t=ogUdDoRIAupEnWTo-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8003%3A201166&show-proto-sidebar=1",
+    },
     {
       title: "Agenda Geek",
       description: "ESG Startup",
@@ -53,20 +81,8 @@ function Projects () {
       demoUrl: "https://www.figma.com/proto/OD664WpvRoF8x2mMyhTPnr/Agenda-Geek-g86?node-id=6%3A19&viewport=691%2C375%2C0.02&scaling=contain&starting-point-node-id=805%3A7309",
       caseUrl: "https://jaypy.notion.site/Agenda-Geek-Improving-the-sign-up-of-High-Schools-in-educational-events-5f84507389b546bd802410589b9889f3",
     },
-    {
-      title: "EasyBuyCard",
-      description: "FinTech",
-      imgUrl: rp1,
-      demoUrl: "https://www.figma.com/proto/xWAULAqrxMN2pOd2mXBloO/EasyBuyCard?node-id=1-16&node-type=canvas&viewport=15500%2C-318%2C0.17&t=ogUdDoRIAupEnWTo-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8003%3A201166&show-proto-sidebar=1",
-    },
-    {
-      title: "KAT Investimentos (Banco Safra)",
-      description: "FinTech",
-      imgUrl: rp1,
-      demoUrl: "https://www.figma.com/proto/ZxMu3g3sY3P9s2fWtXXYOJ/Safra-Assessor-and-Head-otimizado?node-id=1-16&node-type=canvas&viewport=2008%2C321%2C0.04&t=tCJq5DeE5T8ylMuF-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5112%3A1773&show-proto-sidebar=1",
-    },
   ];
-
+  
   const csProjects = [
     {
       title: "Comming Soon",
