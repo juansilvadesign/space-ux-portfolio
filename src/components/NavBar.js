@@ -44,7 +44,7 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="https://juanpablodesigner.github.io/space-ux-portfolio/">
+          <Navbar.Brand href="https://juansilvadesign.github.io/space-ux-portfolio/">
             <img src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -68,7 +68,7 @@ export const NavBar = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/JuanPabloDesigner"
+                  href="https://github.com/juansilvadesign"
                 >
                   <img src={github} alt="GitHub" />
                 </a>
@@ -127,7 +127,7 @@ export const NavBar = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://juanpablodesigner.github.io/ProductDesigner-Resume/">
+                href="https://juansilvadesign.github.io/ProductDesigner-Resume/">
                 <button className="vvd"><span>My Resume</span></button>
               </a>
             </span>

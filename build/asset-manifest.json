@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/space-ux-portfolio/static/css/main.e53aa684.css",
-    "main.js": "/space-ux-portfolio/static/js/main.732a2b4b.js",
+    "main.js": "/space-ux-portfolio/static/js/main.eec9584b.js",
     "static/js/787.fb771931.chunk.js": "/space-ux-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/mc1.gif": "/space-ux-portfolio/static/media/mc1.2919ef189e18c52d0fa7.gif",
     "static/media/rp1.gif": "/space-ux-portfolio/static/media/rp1.03b5d5d96b9ab9e6c90d.gif",
     "static/media/mc3.png": "/space-ux-portfolio/static/media/mc3.fba8e3d7635b76e42eab.png",
+    "static/media/rp4.png": "/space-ux-portfolio/static/media/rp4.9e41202a7d98435b6c9c.png",
     "static/media/mc2.png": "/space-ux-portfolio/static/media/mc2.2cb96814d0d516749376.png",
     "static/media/color-sharp.png": "/space-ux-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/space-ux-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/cs2.png": "/space-ux-portfolio/static/media/cs2.d98788b42ed16f7812b1.png",
     "static/media/mc4.png": "/space-ux-portfolio/static/media/mc4.7b92520adf6fdaa4c28b.png",
+    "static/media/rp5.png": "/space-ux-portfolio/static/media/rp5.7bb411fdee473d0bd705.png",
     "static/media/banner-bg.png": "/space-ux-portfolio/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/rp3.png": "/space-ux-portfolio/static/media/rp3.ec05aaef393c08d067a7.png",
     "static/media/header-img.svg": "/space-ux-portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/rp2.png": "/space-ux-portfolio/static/media/rp2.6f1aae52c13133916729.png",
     "static/media/CentraNo2-Bold.ttf": "/space-ux-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/space-ux-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/space-ux-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -53,11 +57,11 @@
     "static/media/arrow2.svg": "/space-ux-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/space-ux-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "main.e53aa684.css.map": "/space-ux-portfolio/static/css/main.e53aa684.css.map",
-    "main.732a2b4b.js.map": "/space-ux-portfolio/static/js/main.732a2b4b.js.map",
+    "main.eec9584b.js.map": "/space-ux-portfolio/static/js/main.eec9584b.js.map",
     "787.fb771931.chunk.js.map": "/space-ux-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e53aa684.css",
-    "static/js/main.732a2b4b.js"
+    "static/js/main.eec9584b.js"
   ]
 }

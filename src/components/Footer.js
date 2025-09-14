@@ -34,7 +34,7 @@ function Footer() {
 							<a
 								target="_blank"
 								rel="noopener noreferrer"
-								href="https://github.com/JuanPabloDesigner"
+								href="https://github.com/juansilvadesign"
 							>
 								<img src={github} alt="GitHub" />
 							</a>
