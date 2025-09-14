@@ -25,7 +25,7 @@ I've always been curious and willing to learn new things throughout my journey. 
 </p>
 
 ## 🚀 Techs
-
+<img align="right" alt="Coding" width="300" src="https://user-images.githubusercontent.com/113949476/211379383-3589960a-8722-4e32-91b4-c5acbc0771fd.svg">
 This project was developed with the following technologies:
 
 - HTML & CSS
