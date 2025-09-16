@@ -79,7 +79,7 @@ function Projects () {
       description: "ESG Startup",
       imgUrl: rp1,
       demoUrl: "https://www.figma.com/proto/OD664WpvRoF8x2mMyhTPnr/Agenda-Geek-g86?node-id=6%3A19&viewport=691%2C375%2C0.02&scaling=contain&starting-point-node-id=805%3A7309",
-      caseUrl: "https://jaypy.notion.site/Agenda-Geek-Improving-the-sign-up-of-High-Schools-in-educational-events-5f84507389b546bd802410589b9889f3",
+      caseUrl: "https://jaypy.notion.site/Agenda-Geek-Improving-the-sign-up-of-High-Schools-in-educational-events-2704af1e1a3981bfa0cee7a4034e94dd?source=copy_link",
     },
   ];
   

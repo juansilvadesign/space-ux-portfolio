@@ -61,7 +61,7 @@ function Banner () {
                   <p class="unselectable">I'm a self taught UX Designer & Developer who loves designing users experiences and making them real. My main goal is to develop my career and learn by working with new interesting projects remotely.</p>
               </div>}
             </TrackVisibility>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jaypy/" className="vvd">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/juansilvadesign/" className="vvd">
                 <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </a>
           </Col>
